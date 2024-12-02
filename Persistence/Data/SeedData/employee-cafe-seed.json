@@ -1,0 +1,127 @@
+[
+  {
+    "EmployeeId": "UI1000001",
+    "CafeId": "20c5189d-4d04-4225-b9b4-6bd29485b37a",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000002",
+    "CafeId": "20c5189d-4d04-4225-b9b4-6bd29485b37a",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000003",
+    "CafeId": "20c5189d-4d04-4225-b9b4-6bd29485b37a",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000004",
+    "CafeId": "20c5189d-4d04-4225-b9b4-6bd29485b37a",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000005",
+    "CafeId": "20c5189d-4d04-4225-b9b4-6bd29485b37a",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000006",
+    "CafeId": "fc84060e-53dc-4322-bb29-e4e5c487fd45",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000007",
+    "CafeId": "fc84060e-53dc-4322-bb29-e4e5c487fd45",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000008",
+    "CafeId": "fc84060e-53dc-4322-bb29-e4e5c487fd45",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000009",
+    "CafeId": "fc84060e-53dc-4322-bb29-e4e5c487fd45",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000010",
+    "CafeId": "fc84060e-53dc-4322-bb29-e4e5c487fd45",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000011",
+    "CafeId": "1af05344-36ee-4d33-bade-b0b27dad1131",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000012",
+    "CafeId": "1af05344-36ee-4d33-bade-b0b27dad1131",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000013",
+    "CafeId": "1af05344-36ee-4d33-bade-b0b27dad1131",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000014",
+    "CafeId": "1af05344-36ee-4d33-bade-b0b27dad1131",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000015",
+    "CafeId": "1af05344-36ee-4d33-bade-b0b27dad1131",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000016",
+    "CafeId": "9008b310-f0f0-47fb-9e63-5b6c998b1d7e",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000017",
+    "CafeId": "9008b310-f0f0-47fb-9e63-5b6c998b1d7e",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000018",
+    "CafeId": "9008b310-f0f0-47fb-9e63-5b6c998b1d7e",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000019",
+    "CafeId": "9008b310-f0f0-47fb-9e63-5b6c998b1d7e",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000020",
+    "CafeId": "9008b310-f0f0-47fb-9e63-5b6c998b1d7e",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000021",
+    "CafeId": "b865b34e-dcdc-44dd-aff2-78bf878541d7",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000022",
+    "CafeId": "b865b34e-dcdc-44dd-aff2-78bf878541d7",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000023",
+    "CafeId": "b865b34e-dcdc-44dd-aff2-78bf878541d7",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000024",
+    "CafeId": "b865b34e-dcdc-44dd-aff2-78bf878541d7",
+    "StartDate": "2023-08-01T00:00:00"
+  },
+  {
+    "EmployeeId": "UI1000025",
+    "CafeId": "b865b34e-dcdc-44dd-aff2-78bf878541d7",
+    "StartDate": "2023-08-01T00:00:00"
+  }
+]

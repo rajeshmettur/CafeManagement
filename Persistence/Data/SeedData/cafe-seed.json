@@ -1,0 +1,37 @@
+[
+  {
+    "Id": "20c5189d-4d04-4225-b9b4-6bd29485b37a",
+    "Name": "Jannie Benson",
+    "Description": "Officia quis in veniam duis. Et sunt magna Lorem voluptate est. Dolor do aliqua reprehenderit incididunt ipsum nisi non ex tempor velit. Fugiat fugiat minim magna ullamco. Reprehenderit ad elit sunt irure reprehenderit excepteur elit ipsum.\r\n",
+    "Logo": "../images/cafes/coffee.jpg",
+    "Location": "Bugis"
+  },
+  {
+    "Id": "fc84060e-53dc-4322-bb29-e4e5c487fd45",
+    "Name": "Hazel Boyle",
+    "Description": "Veniam excepteur veniam laborum anim voluptate. Aliqua in ullamco fugiat nostrud irure exercitation cupidatat. Consectetur culpa minim laboris aute sint exercitation sit magna nostrud culpa nisi duis voluptate non. Veniam do dolore irure voluptate laborum sunt exercitation irure enim. Labore pariatur reprehenderit enim eiusmod minim sit. Duis reprehenderit tempor irure esse labore amet do. Exercitation consequat ullamco id nisi ullamco veniam velit esse adipisicing deserunt laboris reprehenderit.\r\n",
+    "Logo": "../images/cafes/coffee.jpg",
+    "Location": "Punggol"
+  },
+  {
+    "Id": "1af05344-36ee-4d33-bade-b0b27dad1131",
+    "Name": "Hodge Kinney",
+    "Description": "Nostrud Lorem commodo commodo excepteur fugiat et ea. Cupidatat do ut Lorem do consectetur ipsum culpa tempor eiusmod nisi commodo ex. Minim proident non nisi ullamco enim amet commodo ea ex sunt labore. Aliqua culpa sint velit occaecat eu culpa culpa culpa magna ad Lorem minim non laborum.\r\n",
+    "Logo": "../images/cafes/coffee.jpg",
+    "Location": "SengKang"
+  },
+  {
+    "Id": "9008b310-f0f0-47fb-9e63-5b6c998b1d7e",
+    "Name": "Bettye Thompson",
+    "Description": "Laborum ullamco laborum esse nostrud occaecat cupidatat. Fugiat duis consequat veniam elit sint. Tempor occaecat dolor laboris ullamco dolore tempor labore commodo pariatur nulla aliqua id. Commodo amet ex aliqua commodo deserunt.\r\n",
+    "Logo": "../images/cafes/coffee.jpg",
+    "Location": "Serangoon"
+  },
+  {
+    "Id": "b865b34e-dcdc-44dd-aff2-78bf878541d7",
+    "Name": "Carey Booth",
+    "Description": "Fugiat mollit officia aute sint ipsum elit cillum nostrud dolor amet nulla dolor id occaecat. Minim deserunt occaecat irure proident commodo incididunt id et nostrud sunt proident aute fugiat. Aliquip laboris laboris duis ea exercitation irure.\r\n",
+    "Logo": "../images/cafes/coffee.jpg",
+    "Location": "Farrer Park"
+  }
+]
