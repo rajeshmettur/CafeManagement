@@ -18,10 +18,10 @@ namespace API.Controllers
             _mediator = mediator;
         }
 
-        [HttpGet("{id}")]  ///employees?cafe=<cafe>
-        public async Task<IActionResult> GetEmployeeById([FromQuery] Guid id)
+        [HttpGet("employees")]  ///employees?cafe=<cafe>
+        public async Task<IActionResult> GetEmployeeById([FromQuery] Guid CafeId )
         {
-            var employees = await _mediator.Send(new GetEmployeeByIdQuery  { Id = id});
+            var employees = await _mediator.Send(new GetEmployeeByIdQuery  { CafeId = CafeId });
            if (employees == null)
             return NotFound();
 

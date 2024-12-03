@@ -12,12 +12,12 @@ namespace Application.Mediator_Handlers.Employee.Queries.QueryValidator
 {
     public class GetEmployeeByIdQuery: IRequest<IEnumerable<EmployeeDto>>
     {
-         public Guid? Id { get; set; }
+         public Guid CafeId { get; set; }
+
     }
 
     public class GetEmployeeByIdQueryHandler : IRequestHandler<GetEmployeeByIdQuery, IEnumerable<EmployeeDto>>
     {
-
             private readonly StoreContext _storeContext;
 
             private readonly IMapper _mapper;
@@ -30,22 +30,24 @@ namespace Application.Mediator_Handlers.Employee.Queries.QueryValidator
 
             public async Task<IEnumerable<EmployeeDto>> Handle(GetEmployeeByIdQuery request, CancellationToken cancellationToken)
             {
-                var employees = await GetEmployeesByCafe(request.Id);
+                 var employees = await GetEmployeesByCafe(request.CafeId);
+                //var employees = await GetEmployeesByCafe(request.CafeName);
                 return employees;
             }
 
-            public async Task<List<EmployeeDto>> GetEmployeesByCafe(Guid? cafeId)
+            public async Task<List<EmployeeDto>> GetEmployeesByCafe(Guid CafeId)
             {
                 var query = _storeContext.EmployeeCafes
                     .Include(ec => ec.Employee)
                     .Include(ec => ec.Cafe)
                     .AsQueryable();
 
-                if (cafeId.HasValue)
-                {
-                    query = query.Where(ec => ec.CafeId == cafeId.Value);
-                }
+                //if (CafeId != null)
+               // {
+                    query = query.Where(ec => ec.CafeId == CafeId);
+                //}
 
+                
                 var employees = await query
                     .Select(ec => new EmployeeDto
                     {
@@ -53,8 +55,10 @@ namespace Application.Mediator_Handlers.Employee.Queries.QueryValidator
                         Name = ec.Employee.Name,
                         EmailAddress = ec.Employee.EmailAddress,
                         PhoneNumber = ec.Employee.PhoneNumber,
-                        //DaysWorked = (DateTime.Now - ec.StartDate).Days,
-                        Cafe = ec.Cafe.Name
+                        Gender = ec.Employee.Gender,
+                        DaysWorked = (DateTime.Now - ec.StartDate).Days,
+                        Cafe = ec.Cafe.Name,
+                        CafeId = ec.CafeId
                     })
                     .OrderByDescending(e => e.Cafe)
                     .ToListAsync();
